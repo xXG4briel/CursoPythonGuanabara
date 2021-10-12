@@ -1,0 +1,12 @@
+Aninhadas--> o fato de encaixar as coisas ou aninhar
+
+pegar estruturas condicionais e colocar dentro de condições estruturais
+
+
+################################################################################
+
+
+IF---> SE (1 X)
+ELIF-> ELSE+IF = SE NÃO SE(X)
+ELSE->SE NAO(1x ou nenhuma)
+

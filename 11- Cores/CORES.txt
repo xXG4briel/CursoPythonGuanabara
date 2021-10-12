@@ -1,0 +1,9 @@
+STYLE      COLOR         BACK
+0-normal     30-white    40-
+1-negrito    31-RED      41
+4-underline  32-GREEN    42
+7-inverso    33-YELLOW   43
+	     34-BLUE     44
+	     35-PURPLE   45
+	     36-CIANO    46
+	     37-GRAY     47

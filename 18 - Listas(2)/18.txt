@@ -1,0 +1,14 @@
+OBS : Ao pegar os dados de uma variavel usar [:] pois ele linka as duas listas ex:
+
+var =  ['joao']
+var_lista = var[:] # OBRIGATÓRIO
+
+############# Manipulação de listas compostas ################
+
+var = ['joao', 11],['Ana', 22],['maria', 33],['gabriel', 14]
+
+print(var[0][0]) --> joao
+print(var[0]) --> ['joao', 11]
+print(var[1:]) --> ['Ana', 22],['maria', 33],['gabriel', 14]
+print(var[3][1]) --> 14
+

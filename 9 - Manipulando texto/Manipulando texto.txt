@@ -1,0 +1,145 @@
+Uma cadeia de caracteres é uma frase
+	ex: 'uiui'
+cadeia de texto ou string
+
+
+frase='Python !'
+Python !     OBS: TODA CADEIA DE CARACTERES COMEÇA
+01234567		DO 0 NÃO 1
+
+#######################################################
+
+		FATIAMENTO DE STRING
+frase[0]
+ 	'P'
+------------------------------------
+frase[0:6]
+	'Python'
+------------------------------------
+frase[0:8]
+	'Python !'
+------------------------------------
+frase[0:8:1]
+	'Python !'
+
+frase[0:8:2]
+	'P t o '   
+
+frase[0:8:3]
+	'Ph '
+------------------------------------
+
+frase[:2]	
+	'Py'
+frase[2:]
+	'thon !'
+frase[2::2] ---> vai começar em 2 e pular duas casas
+	'to '
+
+------------------------------------
+		ANÁLISE
+len(frase) len vem de lens= comprimento
+
+len(frase)
+	'8' --> da um resultado de 8 por que ele conta até
+	Python !     	o ultimo digito
+	01234567
+
+------------------------------------
+
+		COUNT
+
+frase.count('!') ----> vai procurar essa quantidade de !
+	'1'		no texto
+
+frase.count('o',0,4) ----> Vai procurar a quantidade de o
+	0		 até a o 4 caractere
+
+
+------------------------------------
+
+		FIND
+frase.find('thon')---> vai mostrar de onde começa o texto
+  thon !     '1'       MENCIONADO
+01234567
+
+frase.find('!')
+       !     '7'	
+01234567
+
+frase.find('Error')
+Python !     '-1' ---> ele retornar -1 porque n foi 	
+01234567  		encontrado o valor digitado
+
+------------------------------------
+
+		IN--Operador
+
+'Python' in frase --->dentro da variavel frase existe
+	True		a palavra 'Python'
+
+'Error' in frase
+	False
+
+------------------------------------
+
+		TRANSFORMADOR
+
+frase.replace('Python','JavaScript')---->ele vai procurar  	
+	'JavaScript !'		essa palavra e vai 
+				trocar pela vem logo após
+
+frase.replace('!','é legal')--> vait trocar o ! por
+	'Python é legal'      é legal
+
+------------------------------------
+		frase._()
+
+frase.upper() --> vai colocar tudo em maiusculo
+	'PYTHON !'
+
+frase.lower() --> vai colocar tudo em minúsculo
+	'python 1'
+
+
+exe='   eu amo chocolate  '
+     0123456789...........
+
+exe.capitalize() -->vai deixar a primeira letra em 
+	'   Eu amo chocolate  '	maiusculo
+
+exe.title()-----> vai deixar todas palavras apos o espaço
+	'   Eu Amo Chocolate  '        com letra maiuscula
+exe.strip---> remove todos os espaços inuteis e a palavra
+	'eu amo chocolate'	apos o espaço passar a 
+	 0123456789......	ser o 0
+
+r=right=direita		l=left=esquerda
+
+exe.rstrip() -->vai remover espaços inuteis da direita
+	'   eu amo chocolate'
+	 0123456789.........
+
+exe.lstrip() -->vai remover espaços inuteis da esquerda
+	'eu amo chocolate  '
+	 0123456789........
+
+------------------------------------
+
+		DIVISAO
+frase.split()---> vai dividir uma string em um texto
+['Python', '!']
+
+PythonX!
+012345 0
+------------------------------------
+
+		JUNÇÃO
+
+'-'.join(frase)--> vai juntar todos caracteres com o
+P-y-t-h-o-n- -!    texto mencionado
+
+a=frase.split()
+'-'.join(a)
+	'Python-!'
+

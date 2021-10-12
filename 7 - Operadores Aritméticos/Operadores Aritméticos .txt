@@ -1,0 +1,27 @@
+soma +
+menos -
+multiplicacao *
+divisao /
+potencia**
+divisao inteira //
+resto da divisao %
+
+##########################################################
+
+	(SOMA) 5+2= 7		(SUBTRAÇÃO)5-2= 3	
+(MULTIPLICAÇÃO)5*2= 10		(DIVISAO)  5/2= 2,5
+
+---------------------------------------------------------
+    (POTENCIA)	  5**2=25(5*5)	     5 /2
+(DIVISAO INTEIRA) 5//2=2            -4 /____
+(RESTO DA DIVISAO)5%2=1              1  2(DIVISAO INTEIRA)
+
+---------------------------------------------------------
+
+		Ordem de Precedência 
+
+	1-()
+	2-**
+	3- *(multiplicação), /(divisao), 
+//(divisao inteira)e %(resto da divisao)	
+	4-+(soma), -(subtração)

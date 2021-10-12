@@ -1,0 +1,9 @@
+> surgiu na década de 60
+> para suprir a necessidade de programas enormes O dividindo
+> o python considera tudo dentro dele um pacote 
+> para fazer uma importação do módulo basta escrever "import nome do arquivo py"
+
+> pacotes são exatamente módulos com outros módulos com arquivos __init__.py
+
+
+

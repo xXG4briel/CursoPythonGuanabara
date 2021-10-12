@@ -1,0 +1,21 @@
+import(modulo) ---> para importar toda biblioteca
+
+
+from (modulo) import (item)----> para escolher 
+um item da biblioteca
+
+
+MATH--->
+	ceil==arendondamento pra cima
+	floor== arendondamento pra baixo
+	trunc== elimina a virgula
+	pow== potencia
+	sqrt== square root(raiz quadrada)
+	factorial==calcula fatorial
+###############EXEMPLO#################################
+
+import math 
+or from math import sqrt,ceil
+n=int(input('digite algo: '))
+raiz=math.sqrt(num)
+print('a raiz de {} é {}'.format(match.ceil(raiz))

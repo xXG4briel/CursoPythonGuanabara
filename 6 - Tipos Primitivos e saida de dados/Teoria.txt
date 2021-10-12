@@ -1,0 +1,6 @@
+__________________________________________________________
+
+int== numeros inteiros
+floats== numeros reais ou de ponto flutuante
+bool== valores lógicos ou booleanos(True or False)
+str== valores caracteres ou strings

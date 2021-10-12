@@ -1,0 +1,10 @@
+---------------------Python é------------------------------
+	linguagem de propósito geral
+	Facíl e intuitivo
+	multiplataforma
+	batteries included
+	livre
+	organizada
+	orientada a objetos
+	muitas bibliotecas
+	

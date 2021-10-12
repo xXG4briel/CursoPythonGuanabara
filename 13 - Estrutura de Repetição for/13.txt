@@ -1,0 +1,27 @@
+46 faça um programa que mostre na tela uma contage regressiva para o estouro de fogos de artificio,  indo de 10 até 0,  com uma pausa de 1 segundo
+
+47 mostre todos os numeros pares de 1 até 50
+
+48 calcule a soma entre todos os números impares que são múltiplos de trêss e que esteja entre 1 e 500
+
+49 refaça o  desafio 9 fazendo a tabuada com o for
+
+50 leia seis números inteiros e mostre a soma apénas daqueles que são pares 
+
+51 leia o primeiro termo e a razao de uma progressão aritmética no final, mostre os 10 primeiros termos dessa progressão
+
+52 leia um número inteiro e diga se ele é ou não um número primo
+
+53 leia um frase e diga se ela é um palíndromo desconsiderando os espaço
+
+54 programa que leia o nome de nascimento de 7 pessoas e mostre quantos ainda não atingiram a maioridade e quantos já são maiores(21 anos)
+
+55 leia 5 pesos de 5 pessoas e no final mostre qual foi o  maior e o menor peso  lidas
+
+56 leia nome idade e sexo de 4 pessoas no final do programa mostre
+
+a média de  idade  do grupoo
+
+nome do homem mais velho
+
+quantas mulheres tem menos de 20 anos
